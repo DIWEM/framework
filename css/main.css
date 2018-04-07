@@ -16,6 +16,18 @@ html {
   /* font-family: 'Quicksand', sans-serif; */
 }
 
+.grad-nav {
+  background: linear-gradient(to bottom right, #3f51b5, #5c6bc0);
+}
+
+.grad-footer {
+  background: linear-gradient(to bottom right, #5c6bc0, #3f51b5);
+}
+
+
+
+
+
 body {
   display: flex;
   min-height: 100vh;
