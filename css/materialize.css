@@ -2930,7 +2930,7 @@ ul.staggered-list li {
 }
 
 .footer-fixed{
-  -webkit-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 3px 3px 0px 0px;
   position: fixed;
   bottom: 0px;
   margin: 0 auto;
@@ -4254,7 +4254,7 @@ nav {
 }
 
 nav.nav-extended {
-  -webkit-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 3px 3px;
   height: auto;
 }
 
