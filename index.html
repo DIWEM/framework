@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script defer src="js/fontawesome-all.js"></script>
+    <script src="js/configuracion.js"></script>
   </head>
 
   <body>
@@ -19,10 +20,10 @@
     <div class="navbar-fixed">
       <nav class="nav-extended grad-nav z-depth-3 animated slideInDown">
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo center"><b>Framework</b></a>
+          <a href="#" class="brand-logo center"><b><script>document.write(nombre_de_la_aplicacion);</script></b></a>
           <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <a class="waves-effect waves-light btn amber darken-1">Boton!</a>
+            <a class="waves-effect waves-light btn amber darken-1"><script>document.write(boton_accion); </script></a>
           </ul>
           <ul class="right">
             <li><a class='dropdown-trigger' href="#!" data-target='dropdown1' ><i class="fas fa-ellipsis-v"></i></a></li>
