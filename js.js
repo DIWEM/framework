@@ -1,25 +1,3 @@
-// Personalizacion de apariencia
-var color_primario = "indigo";
-var color_secundario = "amber";
-var redondeado = "amber";
-var sombras = "amber";
-
-//Configuracion de la barra superior
-var nombre_de_la_aplicacion = "Framework";
-var boton_accion = "boton!";
-
-//Configuracion de Barra lateral
-
-//Configuracion de menu secundario
-var menu_uno = "Uno";
-var icono_menu_uno = "Uno";
-
-var menu_dos = "Dos";
-var icono_menu_dos = "Dos";
-
-var menu_tres = "Tres";
-var icono_menu_tres = "Tres";
-
 function ini(){
 document.createElement('corazon');//creamos el elemento corazon
 var corazon = document.getElementsByTagName('corazon');//llamamos todos los elemento corazon del documento
