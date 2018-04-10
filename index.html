@@ -8,9 +8,10 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/animate.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/colors.css"  media="screen,projection"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script defer src="js/fontawesome-all.js"></script>
-    <script src="js/configuracion.js"></script>
+    <script src="configuracion.js"></script>
   </head>
 
   <body>
@@ -18,7 +19,7 @@
     <header>
     <!--Inicio de navbar-->
     <div class="navbar-fixed">
-      <nav class="nav-extended grad-nav z-depth-3 animated slideInDown">
+      <script>document.write('<nav class="nav-extended color-' + color_primario + ' z-depth-3 animated slideInDown">')</script>
         <div class="nav-wrapper">
           <a href="#" class="brand-logo center"><b><script>document.write(nombre_de_la_aplicacion);</script></b></a>
           <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
@@ -79,7 +80,7 @@
 
     <!--Inicio de boton flotante-->
       <div class="fixed-action-btn click-to-toggle">
-        <a class="btn-floating btn-large red animated shake">
+        <a class="btn-floating btn-large red animated zoomIn z-depth-2">
           <i class="large material-icons">add</i>
         </a>
         <ul>
@@ -98,10 +99,10 @@
 <!--Inicio de main-->
 <main>
 <!--Inicio de Tab one-->
-    <div id="one" class="row col s12 l12 m12">
+    <div id="one" class="row col s12 m12 l12">
       <br>
       <br>
-      <div class="col s12 m8 l6 offset-m2 offset-l3 animated pulse">
+      <div class="col s12 m8 offset-m2 l6 offset-l3 animated zoomInUp">
         <div class="card grad-white">
           <div class="card-content grey-text">
             <span class="card-title center">Inicio de sesion</span>

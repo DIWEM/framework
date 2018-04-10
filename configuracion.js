@@ -1,8 +1,8 @@
 // Configuracion basica
 var nombre_de_la_aplicacion = "Framework";
-var color_primario = "ingigo";
+var color_primario = "indigo";
 var color_secundario = "amber";
-var boton_accion = "Boton";
+var boton_accion = "boton!";
 
 //Configuracion de Barra lateral
 
