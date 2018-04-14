@@ -1,6 +1,6 @@
 // Personalizacion de apariencia
 var color_primario = "indigo";
-var color_secundario = "amber";
+var color_secundario = "pol";
 var redondeado = "amber";
 var sombras = "amber";
 
